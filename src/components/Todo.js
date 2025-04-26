@@ -24,8 +24,10 @@ export default function Todo(){
                     todoarr.length > 0 && todoarr.map((todo, idx) => {
                         return(
                         <ul key={idx}>
+                            <li>
                             <p>{todo}</p>
                             <button onClick={()=>handleDelete(idx)}>Delete</button>
+                            </li>
                         </ul>)
                     })
                 }

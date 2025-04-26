@@ -6,7 +6,6 @@ import Todo from './Todo.js'
 const App = () => {
   return (
     <div>
-        app
         <Todo />
     </div>
   )
